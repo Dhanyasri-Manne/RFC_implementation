@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>BEEP</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <center><h1>BEEP RFC Implementation</h1></center>
+    <hr>
+    <ul>
+      <li>
+        <label for="key">Key:</label>
+        <input type="text" id="key" readonly></li> <br/>
+      <li>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <button type="submit" id="usernameSubmit">Create New User</button>
+      </li>
+    </ul>
+    <hr>
+    <h2>Chatroom : </h2>
+    <ul class="chat" id="chat"> </ul>
+
+    <hr><br/>
+    <input type="text" id="message">
+    <button type="submit" id="messageSubmit">Send Message</button>
+    <script src="app.js"></script>
+  </body>
+</html>

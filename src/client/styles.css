@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #BCEAD5;
+  
+}
+
+
+input {
+  min-width: 700px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #DEF5E5;
+}
+
+
+button{
+background-color: #9ED5C5; 
+  border: #8EC3B0;
+  color: black;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+font-size: 16px;}
+.chat {
+  height: 300px;
+  overflow: auto;
+}
